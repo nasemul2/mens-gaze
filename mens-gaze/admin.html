@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men's Gaze - Admin</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Men's Gaze</div>
+            <div class="menu-icon">&#9776;</div>
+            <ul class="nav-links">
+                <li><a href="/index.html#home">Home</a></li>
+                <li><a href="/products.html">Products</a></li>
+                <li><a href="/index.html#about">About Us</a></li>
+                <li><a href="/index.html#contact">Contact Us</a></li>
+                <li><a href="/admin">Admin</a></li>
+                <li><a href="#" id="logout-btn">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="admin">
+            <div class="container">
+                <h2>Admin - Manage Products</h2>
+
+                <!-- Form for adding/editing products -->
+                <form id="product-form">
+                    <input type="hidden" id="product-id">
+                    <input type="text" id="product-name" placeholder="Product Name" required>
+                    <input type="number" id="product-price" placeholder="Product Price" step="0.01" required>
+                    <input type="text" id="product-sizes" placeholder="Product Sizes (e.g., S,M,L,XL)">
+                    <textarea id="product-description" placeholder="Product Description" rows="4" required></textarea>
+                    <input type="url" id="product-image-link" placeholder="Product Image URL" required>
+                    <button type="submit" class="cta-button">Save Product</button>
+                </form>
+
+                <!-- Table to display products -->
+                <div class="admin-product-list">
+                    <h3>Existing Products</h3>
+                    <table id="admin-products-table">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Price</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="admin-products-tbody">
+                            <!-- Products will be rendered here by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Men's Gaze. All Rights Reserved.</p>
+    </footer>
+
+    <script src="src/admin.js"></script>
+</body>
+</html>

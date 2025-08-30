@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men's Gaze - Admin Login</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <main>
+        <section id="admin-login">
+            <div class="container">
+                <h2>Admin Login</h2>
+                <form id="login-form">
+                    <input type="hidden" name="username" value="Rifat">
+                    <input autocomplete="current-password" type="password" id="password" placeholder="Password" required>
+                    <input autocomplete="current-password-code" type="password" id="secret-code" placeholder="Secret Code" required>
+                    <button type="submit" class="cta-button">Login</button>
+                </form>
+                <p id="login-error" style="color: red;"></p>
+            </div>
+        </section>
+    </main>
+    <script src="src/admin-login.js"></script>
+</body>
+</html>

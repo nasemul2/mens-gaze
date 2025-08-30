@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Dirty Money t-shirt",
+    "price": 499.99,
+    "description": "A timeless classic, this Dirty Money t-shirt is made from 100% premium cotton.",
+    "image": "https://i.ibb.co.com/w2Qfw79/image.png"
+  },
+  {
+    "id": 2,
+    "name": "The Knight t-shirt",
+    "price": 597,
+    "description": "Crafted for comfort and style, these slim-fit jeans are a wardrobe essential.",
+    "image": "https://i.ibb.co.com/cX6NwhRC/image.png"
+  },
+  {
+    "id": 3,
+    "name": "Money Laundry t-shirt",
+    "price": 599,
+    "description": "Authenticate your your personality with  your style and sensations.",
+    "image": "https://i.ibb.co.com/xqyZgYCL/image.png"
+  },
+  {
+    "id": 4,
+    "name": "Aesthetic Black t-shirt",
+    "price": 990,
+    "description": "Elegant and versatile, these Aesthetic Black t-shirt will elevate any outfit.",
+    "image": "https://i.ibb.co.com/GQyLrb2S/image.png"
+  }
+]

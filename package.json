@@ -1,0 +1,17 @@
+{
+  "name": "mens-gaze-backend",
+  "version": "1.0.0",
+  "description": "Backend for the Men's Gaze e-commerce site.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.18.2",
+    "imgbb-uploader": "^1.5.1",
+    "multer": "^2.0.2",
+    "nodemailer": "^7.0.5"
+  }
+}
